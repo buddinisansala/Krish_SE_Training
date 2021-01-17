@@ -1,4 +1,4 @@
-package com.virtusa.exceptionHandling.stackTrace;
+package com.virtusa.exceptionHandling.stacktrace.exceptions;
 
 public class InvalidDateFomatException extends Exception{
 
