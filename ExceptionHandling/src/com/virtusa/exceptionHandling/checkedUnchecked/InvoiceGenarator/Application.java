@@ -6,19 +6,19 @@ import com.virtusa.exceptionHandling.checkedUnchecked.exceptions.*;
 public class Application {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter invoice amount");
+        System.out.println("Enter the Amount");
         int amount = scanner.nextInt();
-        System.out.println("Enter tax rate");
-        int taxRate = scanner.nextInt();
+        System.out.println("Enter electricity Rate");
+        int electricityRate = scanner.nextInt();
 
-        Invoice invoice = new Invoice(amount, taxRate);
+        Invoice invoice = new Invoice(amount, electricityRate);
         try {
             invoice.calculateInvoiceAmount();
         } catch ( DivideByZeroException exception ) {
-            System.err.println("Tax Rate can not be zero");
+            System.err.println("Electricity Rate can not be zero");
         }
 
-        System.out.println("Enter 0 or 1 for print invoice");
+        System.out.println("Do you want print Invoice, Press 1");
         int isPrint = scanner.nextInt();
 
         if (isPrint == 1) {

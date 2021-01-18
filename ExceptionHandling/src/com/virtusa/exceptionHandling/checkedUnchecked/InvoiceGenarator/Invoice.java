@@ -3,19 +3,19 @@ package com.virtusa.exceptionHandling.checkedUnchecked.InvoiceGenarator;
 import com.virtusa.exceptionHandling.checkedUnchecked.exceptions.DivideByZeroException;
 
 public class Invoice {
-    public static int invoiceAmount,amount,taxRate;
+    public static int invoiceAmount,amount,electricityRate;
 
-    Invoice(int amount,int taxRate){
-        this.amount=amount;
-        this.taxRate=taxRate;
+    Invoice(int amount,int electricityRate){
+        this.amount = amount;
+        this.electricityRate = electricityRate;
     }
 
     public static void calculateInvoiceAmount() throws DivideByZeroException {
-        if (taxRate == 0) {
+        if (electricityRate == 0) {
             throw new DivideByZeroException("Can Not Divided By Zero");
         } else {
-            int tax = amount / taxRate;
-            invoiceAmount = amount + tax;
+            int electricityUsage = amount / electricityRate;
+            invoiceAmount = amount + electricityUsage;
         }
     }
 }
