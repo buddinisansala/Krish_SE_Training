@@ -4,7 +4,7 @@ import com.virtusa.exceptionHandling.stacktrace.exceptions.InvalidRenewalExcepti
 
 public class Application {
 
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         try{
             Book book = new Book();
             book.newBook();

@@ -4,7 +4,7 @@ import com.virtusa.exceptionHandling.stacktrace.exceptions.*;
 
 
 public class Fines {
-    public static void payFines() throws Exception {
+    public static void payFines() throws InvalidCardNumberException {
         try {
             calculateFine();
         }catch (InvalidDateFormatException exception) {
@@ -12,7 +12,7 @@ public class Fines {
         }
     }
 
-    public static void calculateFine() throws Exception {
+    public static void calculateFine() throws InvalidDateFormatException {
         try {
             Authenticates authenticates = new Authenticates();
             authenticates.authentication();
