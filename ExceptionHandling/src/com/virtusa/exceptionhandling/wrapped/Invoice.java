@@ -4,14 +4,6 @@ import java.io.IOException;
 
 public class Invoice {
 
-    public static void main(String[] args) {
-        try {
-            getInvoice();
-        }catch ( FileNotFoundException exception ){
-            System.err.println("Invoice Can Not Found In The Directory");
-        }
-    }
-
     public static void getInvoice() throws FileNotFoundException{
         try {
             printInvoice();
