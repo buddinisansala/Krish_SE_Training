@@ -6,7 +6,7 @@ import com.virtusa.exceptionhandling.stacktrace.exceptions.InvalidCardNumberExce
 
 
 public class Book {
-    public void newBook() throws InvalidRenewalException{
+    public void renewBook() throws InvalidRenewalException{
         try {
             Fines fines = new Fines();
             fines.payFines();
