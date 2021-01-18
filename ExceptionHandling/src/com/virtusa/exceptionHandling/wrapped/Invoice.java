@@ -2,20 +2,21 @@ package com.virtusa.exceptionHandling.wrapped;
 
 import java.io.IOException;
 
-public class File {
+public class Invoice {
+
     public static void main(String[] args) {
         try {
-            getFile();
+            getInvoice();
         }catch ( FileNotFoundException exception ){
-            System.err.println("File Can Not Found In The Directory");
+            System.err.println("Invoice Can Not Found In The Directory");
         }
     }
 
-    public static void getFile() throws FileNotFoundException{
+    public static void getInvoice() throws FileNotFoundException{
         try {
             printFile();
         } catch ( IOException exception ) {
-            throw new FileNotFoundException("File Can Not Found",exception);
+            throw new FileNotFoundException("Invoice Can Not Found",exception);
         }
     }
 
