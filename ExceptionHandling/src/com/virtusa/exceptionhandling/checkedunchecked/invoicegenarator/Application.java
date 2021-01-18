@@ -1,7 +1,7 @@
-package com.virtusa.exceptionHandling.checkedUnchecked.InvoiceGenarator;
+package com.virtusa.exceptionhandling.checkedunchecked.invoicegenarator;
 
 import java.util.Scanner;
-import com.virtusa.exceptionHandling.checkedUnchecked.exceptions.*;
+import com.virtusa.exceptionhandling.checkedunchecked.exceptions.*;
 
 public class Application {
     public static void main(String[] args) {

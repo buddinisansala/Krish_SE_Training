@@ -1,4 +1,4 @@
-package com.virtusa.exceptionHandling.stacktrace.exceptions;
+package com.virtusa.exceptionhandling.stacktrace.exceptions;
 
 public class InvalidRenewalException extends Exception{
     public InvalidRenewalException(String message, Exception exception){

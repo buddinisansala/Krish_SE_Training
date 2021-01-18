@@ -1,6 +1,6 @@
-package com.virtusa.exceptionHandling.stacktrace.libraryManagement;
+package com.virtusa.exceptionhandling.stacktrace.libraryManagement;
 
-import com.virtusa.exceptionHandling.stacktrace.exceptions.*;
+import com.virtusa.exceptionhandling.stacktrace.exceptions.*;
 
 
 public class Fines {

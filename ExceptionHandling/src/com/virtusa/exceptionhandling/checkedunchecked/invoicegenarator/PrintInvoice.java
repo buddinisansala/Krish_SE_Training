@@ -1,6 +1,6 @@
-package com.virtusa.exceptionHandling.checkedUnchecked.InvoiceGenarator;
+package com.virtusa.exceptionhandling.checkedunchecked.invoicegenarator;
 
-import com.virtusa.exceptionHandling.checkedUnchecked.exceptions.PrinterNotFoundException;
+import com.virtusa.exceptionhandling.checkedunchecked.exceptions.PrinterNotFoundException;
 public class PrintInvoice {
 
     public  static void PrintInvoice() throws PrinterNotFoundException {

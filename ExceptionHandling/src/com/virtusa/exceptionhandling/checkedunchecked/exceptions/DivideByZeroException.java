@@ -1,4 +1,4 @@
-package com.virtusa.exceptionHandling.checkedUnchecked.exceptions;
+package com.virtusa.exceptionhandling.checkedunchecked.exceptions;
 
 public class DivideByZeroException extends RuntimeException{
 

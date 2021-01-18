@@ -1,4 +1,4 @@
-package com.virtusa.exceptionHandling.stacktrace.exceptions;
+package com.virtusa.exceptionhandling.stacktrace.exceptions;
 
 public class InvalidDateFormatException extends Exception{
 
