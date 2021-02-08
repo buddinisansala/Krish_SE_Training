@@ -1,4 +1,4 @@
-package com.virtusa.exceptionhandling.wrapped;
+package com.buddhi.exceptionhandling.wrapped;
 
 public class FileNotFoundException extends RuntimeException{
     private static final long serialVersionUID=1L;

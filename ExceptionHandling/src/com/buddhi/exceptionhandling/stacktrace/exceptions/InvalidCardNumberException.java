@@ -1,4 +1,4 @@
-package com.virtusa.exceptionhandling.stacktrace.exceptions;
+package com.buddhi.exceptionhandling.stacktrace.exceptions;
 
 public class InvalidCardNumberException extends Exception{
 

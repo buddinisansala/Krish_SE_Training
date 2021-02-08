@@ -1,6 +1,6 @@
-package com.virtusa.exceptionhandling.checkedunchecked.invoicegenarator;
+package com.buddhi.exceptionhandling.checkedunchecked.invoicegenarator;
 
-import com.virtusa.exceptionhandling.checkedunchecked.exceptions.DivideByZeroException;
+import com.buddhi.exceptionhandling.checkedunchecked.exceptions.DivideByZeroException;
 
 public class Invoice {
     public static int invoiceAmount,amount,electricityRate;

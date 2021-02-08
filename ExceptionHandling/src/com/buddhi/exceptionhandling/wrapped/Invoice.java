@@ -1,4 +1,4 @@
-package com.virtusa.exceptionhandling.wrapped;
+package com.buddhi.exceptionhandling.wrapped;
 
 import java.io.IOException;
 

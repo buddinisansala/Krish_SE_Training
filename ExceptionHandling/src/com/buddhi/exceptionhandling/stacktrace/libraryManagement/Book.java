@@ -1,8 +1,8 @@
-package com.virtusa.exceptionhandling.stacktrace.libraryManagement;
+package com.buddhi.exceptionhandling.stacktrace.libraryManagement;
 
 
-import com.virtusa.exceptionhandling.stacktrace.exceptions.InvalidRenewalException;
-import com.virtusa.exceptionhandling.stacktrace.exceptions.InvalidCardNumberException;
+import com.buddhi.exceptionhandling.stacktrace.exceptions.InvalidRenewalException;
+import com.buddhi.exceptionhandling.stacktrace.exceptions.InvalidCardNumberException;
 
 
 public class Book {

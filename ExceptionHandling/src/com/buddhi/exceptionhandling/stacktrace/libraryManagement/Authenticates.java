@@ -1,6 +1,6 @@
-package com.virtusa.exceptionhandling.stacktrace.libraryManagement;
+package com.buddhi.exceptionhandling.stacktrace.libraryManagement;
 
-import com.virtusa.exceptionhandling.stacktrace.exceptions.InvalidPasswordException;
+import com.buddhi.exceptionhandling.stacktrace.exceptions.InvalidPasswordException;
 
 public class Authenticates {
     public static void authentication() throws InvalidPasswordException {
